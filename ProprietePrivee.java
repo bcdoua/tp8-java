@@ -5,6 +5,9 @@ public class ProprietePrivee extends Propriete {
         super(id, responsable, adresse, surface);
         this.nbPieces = nbPieces;
     }
+    public int getNbPieces() {
+    return nbPieces;
+    }
 
     @Override
     public String toString() {

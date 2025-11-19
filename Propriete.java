@@ -9,6 +9,12 @@ abstract class Propriete {
         this.adresse = adresse;
         this.surface = surface;
     }
+    public String getAdresse() {
+        return adresse;
+    }
+    public int getId() {
+    return id;
+    }
     public String toString() {
         return "Id: " + id +
                ", Responsable: " + responsable +
